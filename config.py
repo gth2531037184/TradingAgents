@@ -35,3 +35,9 @@ ACCOUNT_INFO = {
     "password": "@0RzVbEf",                # 你的MT5密码
     "server": "MetaQuotes-Demo",           # 你的MT5服务器
 }
+
+# 高频交易配置 - 每分钟 10 次交易
+TRADING_FREQUENCY = {
+    "check_interval": 6,           # 每 6 秒检查一次价格（60秒/10次 = 6秒）
+    "trades_per_minute": 10,       # 目标：每分钟 10 次交易
+}
