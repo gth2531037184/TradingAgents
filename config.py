@@ -29,9 +29,9 @@ LOG_CONFIG = {
     "log_level": "INFO",
 }
 
-# MT5 账户信息（需要填写你的账户）
+# MT5 账户信息（已配置）
 ACCOUNT_INFO = {
-    "login": 0,                   # 你的MT5账户号
-    "password": "",               # 你的MT5密码
-    "server": "",                 # 你的MT5服务器
+    "login": 5051678923,                   # 你的MT5账户号
+    "password": "@0RzVbEf",                # 你的MT5密码
+    "server": "MetaQuotes-Demo",           # 你的MT5服务器
 }
